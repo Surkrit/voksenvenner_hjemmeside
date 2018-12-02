@@ -3,9 +3,10 @@ body {
   font-family: 'Source sans pro', 'sans-sefir';
 }
 
-h3 {
+h2 {
   text-align: center;
   border-bottom: solid black 1px;
+
 }
 
 p {
@@ -19,6 +20,8 @@ a:hover {
 
 .semere {
   color: black;
+  position: absolute;
+  right: 13.5%;
 }
 
 .semere:hover {
@@ -32,6 +35,7 @@ a:hover {
 
 .placeholdervid {
   padding-top: 100px;
+  padding-left: 6%;
 }
 
 .col {
@@ -43,9 +47,9 @@ a:hover {
 }
 
 .content {
-  background-color: #00A0DF;
+  background-color: #0b92c5;
   border: none;
-  margin: 80px 150px;
+  margin: 80px 120px;
   padding: 3%;
 }
 
@@ -55,9 +59,30 @@ a:hover {
   background-color: red;
   border: none;
   padding: 10px 55px ;
+  margin-bottom: 30px;
+}
+
+#joinbutton {
+  color: white;
+}
+
+.content:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -0px;
+    border-top: 30px solid #0b92c5;
+    border-left: 36px solid transparent;
+}
+
+.socialmediaicon {
+  width: 10%;
 }
 
 footer {
+  border-top: black solid 2px;
+  margin: 50px;
+  padding-right: 10%;
+  padding-left: 10%;
   padding-top: 20px;
-  padding-bottom: 30px;
 }
