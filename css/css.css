@@ -5,7 +5,8 @@ body {
 
 h2 {
   text-align: center;
-  border-bottom: solid black 1px;
+  border-bottom: solid black 2px;
+  font-weight: 700;
 
 }
 
