@@ -19,13 +19,13 @@ a:hover {
 }
 
 .semere {
-  color: black;
+  color: #0000EE;
   position: absolute;
   right: 13.5%;
 }
 
 .semere:hover {
-  color: black;
+  color: #0000EE;
 }
 
 .placeholderimg {
@@ -80,9 +80,19 @@ a:hover {
 }
 
 footer {
+  color: black;
   border-top: black solid 2px;
   margin: 50px;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 20px;
+}
+
+#klikherfooter {
+  color: #0000EE;
+}
+
+#klikherfooter:hover {
+  color: #0000EE;
+  text-decoration: underline;
 }
