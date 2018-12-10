@@ -20,13 +20,13 @@ a:hover {
 }
 
 .semere {
-  color: #0000EE;
-  position: absolute;
-  right: 13.5%;
+  color: #000;
+  display: block;
+  padding-left: 85%;
 }
 
 .semere:hover {
-  color: #0000EE;
+  color: #000;
 }
 
 .placeholderimg {
@@ -35,8 +35,13 @@ a:hover {
 }
 
 .placeholdervid {
-  padding-top: 100px;
-  padding-left: 6%;
+}
+
+iframe {
+  max-height: 70%;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-right: 8%;
 }
 
 .col {
@@ -50,7 +55,7 @@ a:hover {
 .content {
   background-color: #0b92c5;
   border: none;
-  margin: 80px 120px;
+  margin: 80px 40px;
   padding: 3%;
 }
 
@@ -90,10 +95,11 @@ footer {
 }
 
 #klikherfooter {
-  color: #0000EE;
+  color: #000;
+  text-decoration: underline;
 }
 
 #klikherfooter:hover {
-  color: #0000EE;
+  color: #000;
   text-decoration: underline;
 }
